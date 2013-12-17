@@ -9,6 +9,7 @@
 	<name>Dojo - Parent</name>
 	
 	<modules>
+		<module>dojo-builder</module>
 		<module>dojo-excell</module>
 	</modules>
 </project>

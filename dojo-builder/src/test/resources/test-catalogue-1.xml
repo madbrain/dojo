@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalogue periode="printemps/été">
+	<article nom="Collier pour chien" prix="10" reference="CH1" />
+	<article nom="Antipuce">
+		<modele descriptif="10ml" prix="20" reference="CH2A" />
+		<modele descriptif="20ml" prix="35" reference="CH2B" />
+	</article>
+	<article nom="Nonosse" prix="5" reference="CH3" />
+</catalogue>
