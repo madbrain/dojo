@@ -1,0 +1,63 @@
+.toolbar ul {
+	list-style-type: none;
+}
+
+.toolbar li {
+	display: inline;
+}
+
+.excel-table {
+	border-spacing: 0;
+	border-collapse: collapse;
+}
+
+.excel-cell {
+	width: 100px;
+	border: 1px solid black;
+}
+
+.cell-editor {
+	width: 80px;
+	border: 0px;
+}
+
+.remove-icon, .add-icon {
+	text-align: center;
+}
+
+.undo-icon a, .redo-icon a {
+	border: 1px solid black;
+	padding: 3px;
+}
+
+.remove-icon a,
+.add-icon a,
+.undo-icon a,
+.redo-icon a {
+	display: inline-block;
+	height: 16px;
+	width: 16px;
+}
+
+.remove-icon a {
+	background: url(../img/remove.png) no-repeat;
+}
+
+.add-icon a {
+	background: url(../img/add.png) no-repeat;
+}
+
+.undo-icon a {
+	background: url(../img/undo.png) no-repeat;
+}
+
+.redo-icon a {
+	background: url(../img/redo.png) no-repeat;
+}
+
+.remove-icon span,
+.add-icon span,
+.undo-icon span,
+.redo-icon span {
+	visibility: hidden;
+}
