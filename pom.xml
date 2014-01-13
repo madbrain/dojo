@@ -10,6 +10,7 @@
 	
 	<modules>
 		<module>dojo-builder</module>
+		<module>dojo-derivator</module>
 		<module>dojo-excell</module>
 	</modules>
 </project>
