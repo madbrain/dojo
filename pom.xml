@@ -12,5 +12,6 @@
 		<module>dojo-builder</module>
 		<module>dojo-derivator</module>
 		<module>dojo-excell</module>
+		<module>dojo-commandline</module>
 	</modules>
 </project>
