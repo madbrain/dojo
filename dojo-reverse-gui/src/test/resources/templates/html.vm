@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+.groupbox {
+	margin: 10px;
+	border: 2px solid black;
+}
+.groupbox .header {
+	background-color: #99f;
+}
+.groupbox .body {
+	padding: 10px;
+}
+.button {
+	padding: 5px;
+	border: 1px solid black;
+}
+.button:hover {
+	background-color: #955;
+}
+</style>
+</head>
+<body>
+#macro (screenElement $element)
+#if ($modelgen.isGroupBox($element))
+<div class="groupbox">
+<div class="header">
+<span>${element.label}</span>
+</div>
+<div class="body">
+#foreach ($groupElement in $element.elements)
+#screenElement($groupElement)
+#end
+</div>
+</div>
+#elseif ($modelgen.isToolbar($element))
+<div class="toolbar">
+#foreach ($button in $element.buttons)
+<a class="button" id="${button.id}">${button.id}</a>
+#end
+</div>
+#else
+<table><tr>
+<td >${element.label}</td>
+#foreach ($field in $element.fields)
+<td><input type="text" name="${field.id}"></td>
+#end
+</tr>
+</table>
+#end
+#end
+#foreach ($element in $modelgen.elements)
+#screenElement($element)
+#end
+</body>
+</html>

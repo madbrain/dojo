@@ -13,5 +13,6 @@
 		<module>dojo-derivator</module>
 		<module>dojo-excell</module>
 		<module>dojo-commandline</module>
+		<module>dojo-reverse-gui</module>
 	</modules>
 </project>
