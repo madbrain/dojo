@@ -14,5 +14,6 @@
 		<module>dojo-excell</module>
 		<module>dojo-commandline</module>
 		<module>dojo-reverse-gui</module>
+		<module>dojo-lcr-cocktail</module>
 	</modules>
 </project>
