@@ -9,3 +9,4 @@ Ce dépôt contient différents exercices utilisable en Dojo :
  * Exercice sur les annotations et l'approche déclarative : `dojo-commandline`
  * Exercice sur un outil de reverse engineering : `dojo-reverse-gui`
  * Exercice de LCR (Legacy Code Retreat) : `dojo-lcr-cocktail`
+ * Exercice de conception de DSL (Domain Specific Language) : `dojo-meta-dsl`

@@ -15,5 +15,6 @@
 		<module>dojo-commandline</module>
 		<module>dojo-reverse-gui</module>
 		<module>dojo-lcr-cocktail</module>
+		<module>dojo-meta-dsl</module>
 	</modules>
 </project>
